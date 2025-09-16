@@ -1,0 +1,96 @@
+body{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.light{
+  background-color: rgb(255,255,255);
+  color: black;
+  border-color: black;
+}
+.dark{
+  background-color: rgb(30,30,30);
+  color: white;
+  border-color: white;
+}
+
+img{
+  -webkit-user-drag: none;
+}
+
+#TitleName{
+  font-size: 2.5vh;
+}
+#TItleImage{
+  -webkit-user-drag: none;
+  height: 2.5vh;
+}
+
+#topLeft{
+  display: flex;
+  position: relative;
+  height: 2.5vh;
+  margin: auto auto auto 1%;
+}
+#topLeft:hover{
+  cursor: pointer;
+}
+
+#accImg{
+  position: relative;
+  margin: auto 0.5% auto 0;
+  height: 4vh;
+}
+#accImg:hover{
+  cursor: pointer;
+}
+
+#settingsImg{
+  position: relative;
+  margin: auto 1% auto auto;
+  height: 4vh;
+  border-radius: 50px;
+}
+#settingsImg:hover{
+  cursor: pointer;
+}
+
+#top{
+  user-select: none;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  border: solid 1px;
+  overflow: hidden;
+}
+
+#SearchBar{
+  background-color: rgb(50,50,50);
+  position: relative;
+  height: 3vh;
+  width: 25vw;
+  font-size: 2vh;
+  margin: auto 20% auto auto;
+  border: solid 1px;
+  border-radius: 12px;
+}
+
+#left{
+  background-color: rgb(10,10,10);
+  position: fixed;
+  left: 1vw;
+  top: 9.8vh;
+  height: 85%;
+  width: 10vw;
+  border: solid 1px;
+}
+
+#test{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 200vh;
+  border: solid 1px;
+}
